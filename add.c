@@ -17,7 +17,6 @@ int add(int x,int y)
 int add_init(void)
 {
 	printk("%s %s %d\n",__FILE__,__func__,__LINE__);
-	exit();
 }
 
 void add_exit(void)
